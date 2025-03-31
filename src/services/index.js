@@ -42,7 +42,6 @@ export async function updateProfile(data) {
 
 export async function setuserName({ username, category }) {
     const token = localStorage.getItem("token");
-    console.log(token);
     if (!token) {
         throw new Error("No authentication token found. Please log in.");
     }
