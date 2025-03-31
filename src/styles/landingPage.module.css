@@ -341,13 +341,11 @@
 }
 
 .left {
-    transform: rotate(-10deg);
     right: 304px;
     top: -219px;
 }
 
 .right {
-    transform: rotate(10deg);
     right: 139px;
     top: -219px;
 }
@@ -406,6 +404,7 @@
 
     .customerDiv {
         flex-direction: column;
+        margin-top: 20px;
     }
 
     .customer2 {
@@ -418,6 +417,13 @@
 
     .customer2 img {
         width: 30px;
+    }
+
+    .calendarSection {
+        flex-direction: column;
+    }
+    .imageContainer{
+        display: none;
     }
 
 }
