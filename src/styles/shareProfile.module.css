@@ -1,0 +1,14 @@
+.continer{
+    width: 100%;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .noBorder{
+        border: none;
+    }
+}

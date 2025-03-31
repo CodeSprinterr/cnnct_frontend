@@ -1,0 +1,157 @@
+.container {
+    height: 100vh;
+    padding: 20px;
+}
+
+
+.line1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.line1 h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36PX;
+    letter-spacing: 2%;
+}
+
+.line1 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    letter-spacing: 0%;
+}
+
+.mobileToggle {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10px;
+    background-color: #E8E8E8;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+.headingContainer {
+    border-bottom: 2px solid #ccc;
+    height: 20px;
+}
+
+.availabilityContent {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    min-height: 70vh;
+    width: 50%;
+    background-color: #ffffff;
+}
+
+
+.availabilityDiv h5 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.availabilityDiv {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.availabilityRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+.dayLabel {
+    font-weight: bold;
+    min-width: 50px;
+}
+
+.unavailableText {
+    color: #ccc;
+    font-weight: bold;
+}
+
+.timeSlots {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.timeSlot {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.timeInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #F3F3F1;
+    border-radius: 3px;
+}
+
+.addIcon,
+.removeIcon {
+    cursor: pointer;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.removeIcon {
+    color: #ccc;
+}
+
+.addSlotWrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+
+
+.calendarContainer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    min-height: 70vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.AvailabilityHeader {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 70px;
+    border-bottom: 1px solid #ccc;
+}
+
+.ah1,
+.ah2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.ah1 p,
+.ah2 p {
+    color: #187FF2;
+}
+
+@media screen and (max-width: 768px) {
+    .availabilityContent {
+        width: 100%;
+    }
+}

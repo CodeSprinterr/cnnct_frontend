@@ -1,0 +1,44 @@
+/* toaster.module.css */
+.toaster {
+    position: absolute;
+    top: 50px;
+    left: 55%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    min-width: 250px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 9999999;
+  }
+  
+  .success {
+    background-color: #05A063;
+  }
+  
+  .error {
+    background-color: #ff003d;
+  }
+  
+  .closeBtn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .message{
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+  }
+  

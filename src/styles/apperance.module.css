@@ -1,0 +1,61 @@
+/* apperance.module.css */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.headingDiv {
+    margin-bottom: 20px;
+}
+
+.line1 h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.discription {
+    color: #888;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.bookingContainer {
+    border: 2px solid #ccc;
+    border-radius: 24px;
+    min-height: 80vh;
+    background-color: #ffffff;
+}
+
+.tabContainer {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.tab {
+    padding: 10px 40px;
+    cursor: pointer;
+    color: #333;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+    line-height: auto;
+    letter-spacing: 0%;
+}
+
+.tab:hover {
+    color: #1877F2;
+}
+
+.tab.active {
+    border-bottom: 2px solid #1877F2;
+}
+
+.noEventsMessage {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    margin-top: 20px;
+}

@@ -1,0 +1,108 @@
+.toggleContainer {
+    display: flex;
+    gap: 2px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #F3F3F1;
+    margin: 5px;
+}
+
+.toggleButton {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 20px;
+    background: transparent;
+    color: #676767;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.toggleButton.active {
+    color: white;
+}
+
+.slider {
+    position: absolute;
+    background-color: #28A263;
+    /* Green color */
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    height: 100%;
+    /* Make slider take full height */
+    top: 0;
+    /* Adjust slider to take full height */
+    opacity: 0;
+}
+
+/* Optional: Add hover states */
+
+.toggleButton.active:hover {
+    background-color: transparent;
+}
+
+.toggleButton label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+.toggleButton img {
+    transition: all 0.3s ease;
+}
+
+.toggleContainer {
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    background-color: #e8e8e8;
+    padding: 2px;
+    width: fit-content;
+}
+
+.toggleButton {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 20px;
+    background: transparent;
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.toggleButton.active {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.slider {
+    position: absolute;
+    background-color: white;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    z-index: 0;
+}
+
+.icon {
+    font-size: 14px;
+}

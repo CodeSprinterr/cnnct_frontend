@@ -1,0 +1,65 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navImgDiv {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
+.navImgDiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 100%;
+}
+
+.navImgDiv label {
+    font-size: 20px;
+}
+
+.userProfileDiv {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background-color: #F3F3F1;
+    cursor: pointer;
+}
+
+.userProfileDiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 100%;
+}
+
+.logoutBtn {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #F3F3F1;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 14px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 10px 30px;
+    white-space: nowrap;
+    gap: 5px;
+    border: none;
+}
+
+.logoutBtn:hover {
+    background-color: #f8f8f8;
+}

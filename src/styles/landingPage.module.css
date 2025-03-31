@@ -1,0 +1,423 @@
+.outerDiv {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.outerDiv1 {
+    padding: 40px 60px;
+    background-color: #FBFBFB;
+}
+
+.headerDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid rgb(211, 208, 208);
+    background-color: #F0F0F0;
+}
+
+.imgDiv {
+    padding: 16px 15px;
+    width: 20%;
+    float: left;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.signUpButton {
+    background-color: #1877F2;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 15px;
+}
+
+.mobileLogo {
+    display: none;
+}
+
+.heroSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 80px;
+    background-color: #FBFBFB;
+    flex-wrap: wrap;
+}
+
+.descriptionSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    background-color: #FBFBFB;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.descriptionText {
+    font-size: 20px;
+    line-height: 41.2px;
+    letter-spacing: 0%;
+    padding: 0px 200px;
+}
+
+.heroText {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 148.6%;
+    letter-spacing: 1%;
+}
+
+.descText {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 41.2px;
+    letter-spacing: 0%;
+}
+
+.imageContianer {
+    width: 100%;
+}
+
+.heroImage {
+    max-width: 100%;
+    margin-top: -60px;
+}
+
+.heroSection2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px 30px;
+    background-color: #F9F9F9;
+}
+
+.imageCont {
+    flex-grow: 0;
+    flex-basis: 60%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 40px;
+    float: right;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.cardsImg {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.textCont {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.textCont h4 {
+    font-size: 40px;
+    line-height: 48.8px;
+    letter-spacing: -1.12px;
+    margin-top: 40px;
+}
+
+.textCont p {
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: -0.4px;
+    margin-top: 40px;
+}
+
+.hero2Text {
+    margin-right: 40px;
+    text-align: start;
+    line-height: 36.4px;
+    letter-spacing: -0.28px;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.socialCard img {
+    width: 120%;
+    height: auto;
+    object-fit: contain;
+}
+
+.socialCard {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.customerDiv {
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 120px;
+}
+
+.customer1 {
+    width: 80%;
+}
+
+.customer1 h3 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2%;
+}
+
+.customer1 button {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    color: #1877F2;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 2px solid #1877F2;
+    cursor: pointer;
+
+}
+
+.customer2 {
+    display: flex;
+    justify-content: start;
+    margin-right: 120px;
+}
+
+.customer2 p {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    margin-left: 10px;
+}
+
+
+.testimonialsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+
+}
+
+.testimonialCard {
+    border-radius: 24px;
+    padding: 32px;
+}
+
+.testimonialCard.gray {
+    background-color: #e6e6e6;
+}
+
+.testimonialCard.white {
+    background-color: #ffffff;
+}
+
+.testimonialCard h2 {
+    font-size: 24px;
+    margin: 0 0 16px 0;
+    font-weight: 500;
+}
+
+.testimonialCard p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0 0 24px 0;
+}
+
+.authorInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #1877F2;
+}
+
+.authorDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.authorName {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.authorRole {
+    font-size: 14px;
+    color: #666;
+}
+
+.calendarSectionTop{
+    background-color: #FBFBFB;
+}
+.calendarSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1400px;
+    margin: auto;
+    height: 500px;
+}
+
+.textContent {
+    flex: 1;
+    max-width: 50%;
+}
+
+.textContent h2 {
+    font-size: 35px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+
+.textContent p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.textContent ul {
+    padding: 10px;
+}
+
+.textContent ul li {
+    margin-bottom: 45px;
+}
+
+.imageContainer {
+    position: relative;
+    width: 500px;
+}
+
+.tiltedImage1 {
+    height: 470px;
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+    z-index: 100;
+    width: 70%;
+}
+.tiltedImage2 {
+    width: 321px;
+    height: 463px;
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+}
+
+.left {
+    transform: rotate(-10deg);
+    right: 304px;
+    top: -219px;
+}
+
+.right {
+    transform: rotate(10deg);
+    right: 139px;
+    top: -219px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .outerDiv1 {
+        padding: -10px;
+    }
+
+    .mobileLogo {
+        margin: 15px;
+        display: block;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .heroSection {
+        flex-direction: column;
+        margin-top: 0px;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .textContianer {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .heroText {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0px;
+    }
+
+    .imageContianer {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .heroImage {
+        max-width: 100%;
+        margin-top: -40px;
+    }
+
+    .heroSection2 {
+        flex-direction: column;
+    }
+
+    .testimonialsGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .customerDiv {
+        flex-direction: column;
+    }
+
+    .customer2 {
+        flex-direction: column;
+    }
+
+    .testimonialCard {
+        padding: 24px;
+    }
+
+    .customer2 img {
+        width: 30px;
+    }
+
+}

@@ -1,0 +1,110 @@
+.container {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 48px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.card {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.cardTitle {
+    color: #1877f2;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+    border-bottom: 2px solid #A3A3A3;
+    display: inline-block;
+}
+
+.cardTitle::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 90px;
+    height: 2px;
+    background-color: #1877f2;
+}
+
+
+.fromContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form {
+    width: 100%;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+.formGroup label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.formGroup input {
+    height: 36px;
+    padding: 8px;
+    border: 2px solid #7F898F;
+    border-radius: 10px;
+}
+
+.submitButton{
+    margin-top: 20px;
+}
+
+.saveButton {
+    width: 190px;
+    height: 50px;
+    float: right;
+    padding: 10px 12px;
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .fromContainer {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .displayNone {
+        display: none;
+    }
+
+    .card {
+        background-color: transparent;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    .saveButton {
+        float: left;
+    }
+}

@@ -1,0 +1,183 @@
+/* //mobileView.module.css */
+.mobileContainer{
+    width: 360.96px;
+    height: 742.42px;
+}
+
+.mobileView{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: 15px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.mobileHeader{
+    border-radius: 30px;
+    min-height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.dpDiv{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-color: #DFDFDF;
+}
+
+.dpDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 100%;
+}
+
+.mobileHeader p{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.mobileShare{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.shareButton{
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+.mobileToggle{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.getConnectedDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+.getConnectedSection{
+    width: 178px;
+    height: 34.74px;
+    border-radius: 30px;
+    background-color: #35CA7D;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.getConnectedSection label{
+    font-size: 12.71px;
+    font-weight: 500;
+    line-height: 19.07px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+.footerImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.footerImg img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.maxHeight{
+    min-height: 26%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.maxHeight1{
+    min-height: 26%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+
+.grid,
+.corousel {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4px;
+}
+
+.gridBox {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.stripContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    /* Space between strips */
+}
+
+@media screen and (max-width: 768px) {
+    .getConnectedDiv{
+        margin-top: 1px;
+    }
+
+    .maxHeight{
+        min-height: 28%;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+}
